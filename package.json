@@ -2,10 +2,10 @@
   "name": "todo-list-api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/App.js",
   "scripts": {
     "start": "npm run serve",
-    "serve": "node src/app.js"
+    "serve": "node src/App.js"
   },
   "author": "",
   "license": "ISC",
