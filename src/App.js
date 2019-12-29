@@ -12,8 +12,9 @@ class App {
         this.middleware()
         this.routes()
         
-        this.express.listen(Constants.APP_PORT, function() {
-            console.log("App runing on port 3000")
+        let port = process.env.PORT || Constants.APP_PORT;
+        this.express.listen(port, function() {
+            console.log("App runing on port " + port)
         })
     }
 
